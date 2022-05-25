@@ -8,11 +8,17 @@
         <outputRelativeToContentRoot value="true" />
         <module name="sca-consumer" />
         <module name="sca-provider" />
+        <module name="dubbo-provider" />
+        <module name="dubbo-consumer" />
+        <module name="dubbo-api" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dubbo-api" options="-parameters" />
+      <module name="dubbo-consumer" options="-parameters" />
+      <module name="dubbo-provider" options="-parameters" />
       <module name="sca-consumer" options="-parameters" />
       <module name="sca-provider" options="-parameters" />
     </option>
