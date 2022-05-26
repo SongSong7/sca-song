@@ -30,7 +30,6 @@ public class DiscoverController {
 
 
     @RequestMapping("/get")
-    @ResponseBody
     public List<Instance> get(@RequestParam String serviceName) {
         try {
             NamingService namingService = nacosServiceManager.getNamingService(nacosDiscoveryProperties.getNacosProperties());
@@ -40,4 +39,10 @@ public class DiscoverController {
         }
         return new ArrayList<>();
     }
+
+    @RequestMapping("/hello")
+    public String hello(){
+        return "hello,this is sca-provider ...";
+    }
+
 }

@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="sca-consumer" />
         <module name="sca-provider" />
+        <module name="sca-feign" />
         <module name="dubbo-provider" />
         <module name="dubbo-consumer" />
         <module name="dubbo-api" />
@@ -20,6 +21,7 @@
       <module name="dubbo-consumer" options="-parameters" />
       <module name="dubbo-provider" options="-parameters" />
       <module name="sca-consumer" options="-parameters" />
+      <module name="sca-feign" options="-parameters" />
       <module name="sca-provider" options="-parameters" />
     </option>
   </component>
