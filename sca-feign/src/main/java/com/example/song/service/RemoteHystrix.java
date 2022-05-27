@@ -1,4 +1,4 @@
-package org.example.song.service;
+package com.example.song.service;
 
 import org.springframework.stereotype.Component;
 

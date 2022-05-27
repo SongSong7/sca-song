@@ -1,7 +1,7 @@
-package org.example.song.impl;
+package com.example.song.impl;
 
 import org.apache.dubbo.config.annotation.DubboService;
-import org.example.song.MoonService;
+import com.example.song.MoonService;
 
 @DubboService
 public class MoonServiceImpl implements MoonService {

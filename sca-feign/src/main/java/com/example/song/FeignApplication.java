@@ -1,6 +1,6 @@
-package org.example.song;
+package com.example.song;
 
-import org.example.song.service.RemoteService;
+import com.example.song.service.RemoteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

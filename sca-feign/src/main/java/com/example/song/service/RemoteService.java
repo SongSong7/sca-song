@@ -1,4 +1,4 @@
-package org.example.song.service;
+package com.example.song.service;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
