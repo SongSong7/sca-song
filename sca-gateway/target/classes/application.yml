@@ -1,0 +1,20 @@
+server:
+  port: 8000
+spring:
+  application:
+    name: sca-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+    gateway:
+      discovery:
+        locator:
+          # 让gateway根据注册中心找到其他服务
+          enabled: true
+      routes:
+        - id: sca-consumer
+          uri: lb://sca-consumer
+          predicates:
+            - Path=/consumer/**
+            - After=2022-05-28T07:30:26.700+00:00

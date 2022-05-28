@@ -10,6 +10,7 @@
         <module name="sca-provider" />
         <module name="sca-feign" />
         <module name="dubbo-provider" />
+        <module name="sca-gateway" />
         <module name="dubbo-consumer" />
         <module name="dubbo-api" />
       </profile>
@@ -22,6 +23,7 @@
       <module name="dubbo-provider" options="-parameters" />
       <module name="sca-consumer" options="-parameters" />
       <module name="sca-feign" options="-parameters" />
+      <module name="sca-gateway" options="-parameters" />
       <module name="sca-provider" options="-parameters" />
     </option>
   </component>
